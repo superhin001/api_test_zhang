@@ -1,0 +1,18 @@
+[2018-10-14 10:49:08] DEBUG [db_query: db.py, 25] select*from user where name='z123'
+[2018-10-14 10:49:08] DEBUG [db_query: db.py, 26] select*from user where name='z123'
+[2018-10-14 10:49:08] DEBUG [db_query: db.py, 27] ()
+[2018-10-14 10:49:45] DEBUG [db_query: db.py, 25] select*from user where name='z123'
+[2018-10-14 10:49:45] DEBUG [db_query: db.py, 26] select*from user where name='z123'
+[2018-10-14 10:49:45] DEBUG [db_query: db.py, 27] ()
+[2018-10-14 10:50:08] DEBUG [db_query: db.py, 25] select*from user where name='张三'
+[2018-10-14 10:50:08] DEBUG [db_query: db.py, 26] select*from user where name='张三'
+[2018-10-14 10:50:08] DEBUG [db_query: db.py, 27] ((3, '张三', 'e10adc3949ba59abbe56e057f20f883e'),)
+[2018-10-14 10:56:14] DEBUG [db_query: db.py, 25] select*from user where name='张三'
+[2018-10-14 10:56:14] DEBUG [db_query: db.py, 26] select*from user where name='张三'
+[2018-10-14 10:56:14] DEBUG [db_query: db.py, 27] ((3, '张三', 'e10adc3949ba59abbe56e057f20f883e'),)
+[2018-10-14 13:02:35] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2018-10-14 13:02:35] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2018-10-14 13:04:46] INFO [send_report: send_email.py, 29] send email done
+[2018-10-14 13:05:13] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2018-10-14 13:05:13] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2018-10-14 13:27:19] INFO [send_report: send_email.py, 33] send email done
